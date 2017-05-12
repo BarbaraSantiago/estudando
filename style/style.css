@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+*{
+	/*background-color: #f0ece3;*/
+	/*box-sizing: border-box;	*/
+}
+
+body {
+	
+	margin: 0;
+	/*font-family: 'Muli', sans-serif;*/
+	/*background color: blue;*/
+	font-family: 'Muli', sans-serif;
+	
+
+
+
+
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+section {
+	display: inline-flex;
+}
+
+main {
+	width: 70%;
+	padding-right: 10px;
+	/*background-color: #34180c;*/
+}
+
+aside {
+	width: 30%;
+	flex-direction: column;
+	margin: 0;
+}
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	padding: 10px;
+	font-size: 2em;
+}
+
+footer {
+	align-items: center;
+	background-color: #34180c;
+	color: white;
+}
+
+/*#site section {*/
+	/*display: inline-flex;*/
+
+.topo {
+	background-color: #34180c;
+	color: white;
+
+	/*font-family: 'Lobster', cursive;*/
+	
+}
+
+.container {
+	size: 1024px; 
+}
+
+#logo img {
+	width: 150px;
+	height: 150px;
+}
+
+.linha {
+	display: flex;
+}
+
+.espacoEntre {
+		justify-content: space-between;
+
+	}
+
+.botao {
+	font-size: 12px;
+	font-weight: bold;
+	background: white;
+	border: solid 1px #f88c0e;
+	border-radius: 5px;
+	margin: 10px;
+	cursor: pointer;
+	background-color: #f88c0e;
+	color: #462300;
+	padding: 5px
+
+}
+
+.botao.amei.vermelho {
+	background-color: red;
+}
+
+
+.centralizado {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.espacoAoredor {
+	justify-content: space-around;
+}
+
+.centralizado.especoEntre {
+	justify-content: space-around;
+
+}
+
+.texto {
+	text-align: center;
+}
+
+.borda {
+	border: solid 1px;
+	margin-top: 10px;
+	color: #f88c0e;
+}
+
+.headerCaixa {
+
+	display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #f88c0e;
+	
+}
+
+.menuHorizontal a{
+	padding: 10px;
+}
+
+.paginacao li{
+	/*width: 50%;*/
+	padding: 10px;
+}
+
+.fa-coffee {
+	padding: 15px;
+}
+
+.corBranca a{
+	color: white;
+}
+
+.newsletter{
+	padding: 10px;
+}
+
+
+/*TABLET*/
+
+@media (max-width: 1140px) {
+	
+	}
+
